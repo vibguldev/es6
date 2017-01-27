@@ -1,0 +1,1 @@
+module.exports = (inputString, numberOfExclamation = inputString.length) => (inputString + '!'.repeat(numberOfExclamation))
