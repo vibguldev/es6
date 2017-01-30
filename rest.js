@@ -1,8 +1,6 @@
-module.exports = function average(...args) {
+module.exports = (...args) => {
   var result = 0;
-  args.forEach(function (value) {
-    result += value;
-  });
+  args.forEach((value) => (result += value));
 
   return result / args.length;
 };
